@@ -5,16 +5,25 @@
 
 .header{
   &__top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
+  }
+  &__container-bg{
+    margin-top: 50px;
+    background-image: url(../images/header-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 21%;
+  }
+  &__top-inner{
     padding: 11px 0 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  &__container-bg{
-    background-image: url(../images/header-bg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 7%;
   }
   &__content{
     display: flex;
@@ -245,13 +254,11 @@
     margin-top: 25px;
   }
   &__content-text{
-    max-width: 570px;
-    margin-bottom: 74px;
-    &:first-child{
-      margin-bottom: 20px;
-    }
+    max-width: 502px;
+    margin-bottom: 20px;
   }
   &__content-link{
+    margin-top: 44px;
     @extend %btn;
     padding: 8px 28px;
   }

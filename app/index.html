@@ -11,47 +11,32 @@
 
 <body>
 
-  <header class="header">
-    <div class="container-bg header__container-bg">
+  <header class="header" id="home">
+    <div class="header__top">
       <div class="container">
-        <div class="header__top">
+        <div class="header__top-inner">
           <a class="logo" href="#">
             <img class="logo__img" src="images/logo.svg" alt="лого">
           </a>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">
+                <a class="menu__list-link" href="#home">
                   Главная
                 </a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">
+                <a class="menu__list-link" href="#services">
                   Услуги
                 </a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">
+                <a class="menu__list-link" href="#specialists">
                   Специалисты
                 </a>
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">
-                  Оборудование
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">
-                  Галерея
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">
-                  О нас
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">
+                <a class="menu__list-link" href="#footer">
                   Контакты
                 </a>
               </li>
@@ -59,6 +44,8 @@
           </nav>
         </div>
       </div>
+    </div>
+    <div class="container-bg header__container-bg">
       <div class="container">
         <div class="header__content">
           <div class="header__content-item">
@@ -141,7 +128,7 @@
 
   <div class="container-bg decoration__container-bg">
 
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <div class="title-wrapper services__title-wrapper">
           <h3 class="title services__title">
@@ -186,7 +173,7 @@
       </div>
     </section>
 
-    <section class="specialists">
+    <section class="specialists" id="specialists">
       <div class="container">
         <div class="title-wrapper">
           <h3 class="title specialists__title">
@@ -276,7 +263,10 @@
           <p class="preparation__content-text">
             Для планирования пластической операции нужно
             пройти обследования и сдать анализы. Вы должны быть
-            полностью здоровы! Если у Вас есть хронические
+            полностью здоровы!
+          </p>
+          <p class="preparation__content-text">
+            Если у Вас есть хронические
             заболевания, должна быть стадия компенсации
             (все показатели в норме) и заключение врача, что
             нет противопоказаний для плановой операции.
@@ -293,7 +283,7 @@
     </div>
   </section>
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container-bg footer__container-bg">
       <div class="container">
         <div class="footer__inner">
