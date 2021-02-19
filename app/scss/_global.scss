@@ -1,0 +1,45 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  @extend %roboto-400;
+  color: $default;
+  font-size: 18px;
+  line-height: 21px;
+  min-width: 1180px;
+}
+
+.container-bg{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+.title-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  @extend %roboto-500;
+  font-size: 28px;
+  line-height: 33px;
+  color: $title;
+  margin-right: 16px;
+  white-space: nowrap;
+  &__line{
+    width: 100%;
+    max-width: 350px;
+    height: 2px;
+    background-color: $title;
+  }
+}
+
