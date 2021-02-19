@@ -52,8 +52,7 @@
     padding: 8px 46px;
   }
   &__content-img{
-    margin-right: 55px;
-    margin-top: 42px;
+    margin: 42px 55px 0 52px;
   }
   &__info{
     display: flex;
@@ -285,6 +284,7 @@
   }
   &__services{
     width: 205px;
+    margin-left: 50px;
   }
   &__services-link{
     color: #fff;
@@ -374,9 +374,3 @@
     }
   }
 }
-
-
-
-
-
-@import 'media';

@@ -63,6 +63,7 @@ function build() {
     'app/**/*.html',
     'app/css/style.min.css',
     'app/js/main.min.js',
+    'app/fonts/**/*.{woff,woff2}',
   ], {base:'app'})
   .pipe(dest('dist'))
 }
